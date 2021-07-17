@@ -9,6 +9,15 @@ This is first version of my script to push UNMS (Ubiquiti Network Management Sys
 - UNMS (Ubiquiti Network Management System) API Token (Please follow "Settings > Users > API tokens > Create new API token" to create a token on your UNMS if you don't have)
 - Telegram Bot Api Key and Chat Id
 
+## Installation
+- Download the code on a path on your server (please change crontab list regarding to it)
+- Change the temporary cache file path if needed on $LastResponse value
+- Change <YOUR_UNMS_URL> with yours on code
+- Change <YOUR_UNMS_API_TOKEN> with yours on code
+- Change <TELEGROM_BOT_API_KEY> with yours on code
+- Change <TELEGRAM_CHAT_ID> with yours on code
+
+
 
 ## Crontab List
 
